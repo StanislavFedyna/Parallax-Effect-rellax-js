@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js.rellax.js"></script>
+  <title>Rellax JS</title>
+</head>
+
+<body>
+  <div class="rellax component-1">
+    <img src="img/2.png" alt="img" width="70%">
+  </div>
+  <div class="rellax component-2" data-rellax-speed="6">
+    <img src="img/2.png" alt="img" width="100%">
+  </div>
+  <div class="rellax component-3" data-rellax-speed="6">
+    <img src="img/3.png" alt="img" width="100%">
+  </div>
+  <div class="rellax component-4" data-rellax-speed="6">
+    <img src="img/4.png" alt="img" width="90%">
+    <div class="rellax component-5" data-rellax-speed="6">
+      <img src="img/BeCreative.png" alt="img" width="50%">
+  </div>
+</body>
+<script>
+  var rellax = new Rellax('.rellax', {
+  // center: true
+  callback: function(position) {
+      // callback every position change
+      console.log(position);
+  }
+});
+</script>
+
+</html>

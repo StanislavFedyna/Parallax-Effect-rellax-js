@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.component-1{
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.component-2{
+  margin-top: 200px;
+  margin-left: -700px;
+}
+.component-3{
+  margin-top: -650px;
+
+}
+.component-4{
+  margin-top: 1050px;
+}
+.component-5{
+  margin-top: -680px;
+  margin-left: 100px;
+}
+.component-6{
+  margin-top: -250px;
+  margin-left: 950px;
+}
