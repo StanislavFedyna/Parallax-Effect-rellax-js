@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@ body{
   background-size: 100% 100%;
   background-attachment: fixed;
 }
-
+/* Beginning adding position for all elements*/
 .component-1{
   margin-top: 100px;
   margin-left: 300px;
@@ -25,7 +26,4 @@ body{
   margin-top: -680px;
   margin-left: 100px;
 }
-.component-6{
-  margin-top: -250px;
-  margin-left: 950px;
-}
+/* Ending adding position for all elements*/
